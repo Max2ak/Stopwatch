@@ -40,7 +40,7 @@ h1 {
   display: flex;
   justify-content: space-between;
 
-  width: 187px;
+  height: 187px;
 }
 button {
   cursor: pointer;
@@ -50,6 +50,7 @@ button {
   margin: 0;
   outline: none;
 }
+
 #playButton {
   display: block;
 }
