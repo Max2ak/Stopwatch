@@ -1,4 +1,3 @@
-// Convert time to a format of hours, minutes, seconds, and milliseconds
 
 function timeToString(time) {
   let diffInHrs = time / 3600000;
@@ -20,19 +19,16 @@ function timeToString(time) {
   return `${formattedMM}:${formattedSS}:${formattedMS}`;
 }
 
-// Declare variables to use in our functions below
 
 let startTime;
 let elapsedTime = 0;
 let timerInterval;
 
-// Create function to modify innerHTML
 
 function print(txt) {
   document.getElementById("display").innerHTML = txt;
 }
 
-// Create "start", "pause" and "reset" functions
 
 function start() {
   startTime = Date.now() - elapsedTime;
@@ -55,7 +51,6 @@ function reset() {
   showButton("PLAY");
 }
 
-// Create function to display buttons
 
 function showButton(buttonKey) {
   const buttonToShow = buttonKey === "PLAY" ? playButton : pauseButton;
@@ -63,7 +58,6 @@ function showButton(buttonKey) {
   buttonToShow.style.display = "block";
   buttonToHide.style.display = "none";
 }
-// Create event listeners
 
 let playButton = document.getElementById("playButton");
 let pauseButton = document.getElementById("pauseButton");
