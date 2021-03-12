@@ -1,5 +1,5 @@
 body {
-  background-color: #5f114c;
+  background-color: #363436;
   color: #ffffff;
 }
 h1 {
@@ -45,9 +45,9 @@ h1 {
 button {
   cursor: pointer;
   background: transparent;
-  padding: 0;
+  padding: 10px;
   border: none;
-  margin: 0;
+  margin: 10px;
   outline: none;
 }
 
